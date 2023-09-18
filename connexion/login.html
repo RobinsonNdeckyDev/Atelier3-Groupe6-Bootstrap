@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./login.css" />
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="connexion">
+    <form>
+      <h1>Please sign in</h1>
+      <div class="mb-3">
+        <input type="email" class="form-control" id="email" placeholder="Email address" />
+        <input type="password" class="form-control inputPass" id="password" placeholder="Password"/>
+      </div>
+      <div class="icon">
+        <i class="fa-solid fa-eye-slash" id="eyePass"></i>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary">
+        <a href="../paiement/paiement.html">Sign in</a>
+      </button>
+    </form>
+  </div>
+
+  <script src="./login.js"></script>
+  <script src="../js/FontAwesome.js"></script>
+</body>
+
+</html>

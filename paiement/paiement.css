@@ -1,0 +1,83 @@
+/* Astou header panier */
+
+body{
+    background-color: rgb(203, 216, 218);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center; 
+}
+
+.card-body{
+    border: 1px solid grey;
+}
+
+.panierCarte{
+    margin: 0 auto;
+}
+
+.card-body{
+    border: 1px solid grey;
+}
+
+.bgCarte{
+    background-color: rgb(231, 243, 239);
+}
+.btS{
+    width: 250px;
+}
+.bts button{
+    background-color: rgb(93, 94, 94);
+    color: white;
+}
+.vert{
+    color: green;
+}
+
+.card-body h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-body .bgCarte{
+    background: gray;
+}
+
+.container .col #nf{
+margin-right: 40%;
+}
+
+.expireCVV:nth-child(1){
+    margin-right: 40px;
+}
+
+.boutonPaie button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer{
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+
+.carteB{
+    margin-right: 6%;
+}
+
+.textFooter{
+    color: rgb(0, 76, 255);
+}
+
+.prodPanier{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    top: 6px;
+    right: 6px;
+}

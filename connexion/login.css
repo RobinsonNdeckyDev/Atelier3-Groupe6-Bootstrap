@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connexion{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #EDEDED;
+    padding: 5%;
+}
+
+form{
+    position: relative;
+}
+
+.connexion h1{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.form-control{
+    padding: 20px;
+    border: 1px solid #b3b2b2;
+}
+.form-control:nth-child(2){
+    background: #fffcbd;
+}
+
+.btn{
+    width: 100%;
+    padding: 15px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type="password"]::placeholder{
+    background: #EDEDED;
+    width: 17%;
+    text-align: center;
+}
+
+.icon{
+    position: absolute;
+    bottom: 140px;
+    left: 90%;
+}
+
+#password{
+    padding-right: 80px;
+}
+
+.icon i{
+    cursor: pointer;
+}

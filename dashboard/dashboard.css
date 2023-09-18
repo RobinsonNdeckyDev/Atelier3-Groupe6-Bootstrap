@@ -1,0 +1,259 @@
+:root{
+    --colorIcon: #2e2e2e;
+    --colorPrimaire: #fff;
+    --colorsecondaire: #141418;
+
+    /* background */
+    --Bg1: #f0f0f0;
+
+    /* Text color */
+    --Text1: #f09a15;
+    --Text2: #c9c9c9;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+/* dash */
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.sideLeft,.sideRight{
+    border: 1px solid blue;
+    height: 100vh;
+    width: 18%;
+}
+
+.sideMiddle{
+    border: 1px solid blue;
+    height: 100vh;
+    width: 62%;
+}
+
+
+.sideLeft a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Section Dashboard Middle */
+
+/* Entete */
+.entete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 40px;
+    background: #fff;
+    padding-bottom: 1%;
+}
+
+.entete .profil,.iconesRight{
+    display: flex;
+}
+
+.iconesRight .partage{
+    margin-right: 30px;
+}
+
+.iconesRight .profil{
+    justify-content: center;
+    align-items: center;
+}
+
+.profil span{
+    margin-right: 5px;
+}
+
+.profil a{
+    text-decoration: none;
+    color: var(--colorIcon);
+}
+.goutte span{
+    background: var(--colorIcon);
+    color: var(--colorPrimaire);
+    padding: 6px 15px;
+}
+
+.goutte{
+    align-items: center;
+}
+
+/* Milieu de dashboard */
+
+.milieu{
+    background: var(--colorsecondaire);
+}
+
+.milieu .mili{
+    padding-top: 25px;
+}
+
+.milieu .container{
+    border: 1px solid white;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.milieu .first{
+    display: flex;
+    /* margin-bottom: 2%; */
+    background: var(--Bg1);
+    padding: 5px;
+}
+
+.first .partie1{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 18px;
+}
+
+.partie1 h1{
+    color: var(--Text1);
+    font-size: 20px;
+}
+
+.partie1 p{
+    color: var(--Text2);
+}
+
+.partie1 .tasse{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.partie1 .tasse img{
+    width: 70%;
+    height: 60px;
+}
+
+.first .partie2{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding: 0;
+    padding-top: 18px;
+}
+
+.partie2 h1{
+    text-align: center;
+    color: var(--Text1);
+    font-size: 20px;
+}
+
+.partie2 p{
+    text-align: center;
+    color: var(--Text2);
+}
+
+/* Deuxiéme partie */
+
+.second{
+    background-color: #f7f7f7;
+}
+
+.second .container-second{
+    display: flex;
+    color: var(--colorsecondaire);
+    align-items: center;
+    padding-left: 3%;
+}
+
+.container-second img,span,h4{
+    margin-right: 8px;
+}
+
+.container-second span{
+    font-weight: bold;
+}
+.container-second h4{
+    color: var(--Text1);
+    font-size: 18px;
+}
+
+.container-second img{
+    width: 18px;
+    height: 18px;
+}
+
+
+/* Troisième partie */
+.third{
+    padding: 2%;
+}
+
+.thirdContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdContainer .section{
+    width: 49%;
+}
+
+.card-header{
+    justify-content: space-between;
+}
+.card-header{
+    background-color: var(--colorsecondaire);
+}
+
+.card-body textarea{
+    width: 100%;
+}
+
+.sociaux{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.sociaux .icones i{
+    margin-right: 10px;
+}
+
+.icon i,span{
+    color: white;
+}
+
+.post i{
+    color: white;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.messages .bouton span{
+    color: var(--colorPrimaire);
+}
+
+.messages .icon span{
+    color: var(--Text1);
+}
+
+.messages img{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.section2 .graph{
+    width: 100%;
+}
+
+.section2 .cercle{
+    width: 100%;
+}
